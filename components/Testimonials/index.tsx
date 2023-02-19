@@ -4,9 +4,9 @@ import { afImages } from "../../constants/ImagePaths";
 
 const index = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row ">
-      <div className="md:m-auto sm:max-md:order-1">
-        <div className="text-xl sm:text-3xl font-semibold uppercase w-[18em] md:w-[11em] py-4 text-center md:text-left sm:pl-[4em] md:px-[0em] px-[2em]">
+    <div className="flex flex-col-reverse md:flex-row md:justify-between ">
+      <div className="md:my-auto sm:max-md:order-1">
+        <div className="text-xl sm:text-3xl font-semibold uppercase sm:max-md:w-[18em] md:w-[11em] py-4 text-center md:text-left sm:pl-[4em] md:px-[0em] px-[2em]">
           Bringing you the <span className="text-brown">best</span> audio gear
         </div>
         <div className="text-sm md:w-[30em] sm:w-[40em] text-gray-500 text-center md:text-left sm:pl-[4em] md:pl-[0em] px-[2em]">
@@ -19,7 +19,7 @@ const index = () => {
         </div>
       </div>
       {/* desktop view */}
-      <div className="hidden md:flex justify-end sm:max-md:order-last">
+      <div className="hidden md:flex">
         <LazyLoadImage
           src={afImages.testimonials}
           effect="blur"
