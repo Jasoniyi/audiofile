@@ -5,6 +5,7 @@ import { afImages } from "../constants/ImagePaths";
 import Product from "../components/Product/Product";
 import Testimonails from "../components/Testimonials";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 const headphones = () => {
   return (
@@ -42,9 +43,11 @@ const headphones = () => {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <button className="uppercase bg-brown p-4 text-xs text-white">
-              see product
-            </button>
+            <Link href="/xx99markIIProduct">
+              <button className="uppercase bg-brown p-4 text-xs text-white">
+                see product
+              </button>
+            </Link>
           </div>
         </div>
 

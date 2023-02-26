@@ -1,16 +1,11 @@
 import React from "react";
-import banner from "../public/banner.svg";
-import cart from "../public/cart.svg";
-import bar from "../public/bar.svg";
 import { afImages } from "../constants/ImagePaths";
-import TopNav from "../components/Menu/TopNav";
 import Product from "../components/Product/Product";
 import Zx9Speakers from "../components/zx9speakers";
 import Zx7Speakers from "../components/zx7Speakers";
 import Yx1Earphones from "../components/yx1Earphones";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
-import Image from "next/image";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Menu from "../components/Menu/Menu";
 

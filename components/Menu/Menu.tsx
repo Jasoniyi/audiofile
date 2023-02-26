@@ -4,15 +4,19 @@ import cart from "../../public/cart.svg";
 import bar from "../../public/bar.svg";
 import TopNav from "./TopNav";
 import Image from "next/image";
+import Link from "next/link";
 
 const Menu = () => {
   return (
     <>
       {/* desktop menu */}
       <div className="hidden text-white md:flex flex-col md:flex-row justify-between py-6">
+        {/* <Link href=""> */}
         <div className="cursor-pointer">
           <Image src={banner} alt="audiofile" />
         </div>
+        {/* </Link> */}
+
         <TopNav />
         <div className="cursor-pointer">
           <Image src={cart} alt="cart" />
