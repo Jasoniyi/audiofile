@@ -26,4 +26,16 @@ export const afImages: ImageShape = {
     "https://res.cloudinary.com/dt8whfj0k/image/upload/v1676827504/audiofile/Zx7Speakers_bmekoh.svg",
   yx1earphone:
     "https://res.cloudinary.com/dt8whfj0k/image/upload/v1676829432/audiofile/yx1earphone_n7yyok.svg",
+  earphonePdct1:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1677322159/audiofile/earPhoneProductMan_plhwem.svg",
+  earphonePdct2:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1677322103/audiofile/swagg_jeqtvy.svg",
+  earphonePdct3:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1677322100/audiofile/ProductEarphone_mjkked.svg",
+  markIsample1:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1677403635/audiofile/markIsample1_wunobd.svg",
+  markIsample2:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1677403635/audiofile/markIsample2_oyhcim.svg",
+  markIsample3:
+    "https://res.cloudinary.com/dt8whfj0k/image/upload/v1677403635/audiofile/markIsample3_erplud.svg",
 };

@@ -55,7 +55,7 @@ const speakers = () => {
             <span className="uppercase text-brown tracking-[.6em] text-xs">
               new product
             </span>
-            <span className="text-2xl sm:text-3xl w-[6em] font-semibold uppercase">
+            <span className="text-center md:text-left text-2xl sm:text-3xl w-[6em] font-semibold uppercase">
               zx7 speakers
             </span>
             <p className="text-xs sm:text-sm text-center md:text-left sm:max-md:w-[38em] md:w-[23em] text-gray-500">
